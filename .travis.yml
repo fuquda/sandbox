@@ -13,3 +13,6 @@ android:
         - android-21
 
     # Additional components
+    
+script:
+  - ./gradlew assembleDebug test
